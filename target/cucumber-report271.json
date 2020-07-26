@@ -1,0 +1,109 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test my Get Method101",
+        "description": "",
+        "id": "first-get-rest-assured-test101;test-my-get-method101;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 199069398,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "HeadersValidationSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12888729234,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checks headers at path \"Content-Type\" have \"application/json; charset\u003dutf-8\" in Json",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Content-Type",
+                  "offset": 29
+                },
+                {
+                  "val": "application/json; charset\u003dutf-8",
+                  "offset": 49
+                }
+              ],
+              "location": "HeadersValidationSD.user_checks_headers_at_path_have_in_Json(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test my Get Method101",
+        "description": "",
+        "id": "first-get-rest-assured-test101;test-my-get-method101;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 144294,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "HeadersValidationSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1674697391,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.basic.HeadersValidationSD.HeadersValidationSD.user_checks_headers_at_path_have_in_Json(HeadersValidationSD.java:41)\r\n\tat ✽.Then user checks headers at path \"date\" have \"server\" in Json(HeadersFF.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user checks headers at path \"date\" have \"server\" in Json",
+            "match": {
+              "arguments": [
+                {
+                  "val": "date",
+                  "offset": 29
+                },
+                {
+                  "val": "server",
+                  "offset": 41
+                }
+              ],
+              "location": "HeadersValidationSD.user_checks_headers_at_path_have_in_Json(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First GET Rest Assured test101",
+    "description": "",
+    "id": "first-get-rest-assured-test101",
+    "keyword": "Feature",
+    "uri": "HeadersFF.feature"
+  }
+]

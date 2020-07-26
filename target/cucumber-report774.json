@@ -1,0 +1,252 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test my POST request test11",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test11;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1706768,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the rest asured test",
+            "match": {
+              "location": "MyPostFromTextFile.user_hit_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1067430315,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checks data at path \"Kshipra\" having value \"QA lead\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kshipra",
+                  "offset": 26
+                },
+                {
+                  "val": "QA lead",
+                  "offset": 49
+                }
+              ],
+              "location": "MyPostFromTextFile.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13528566,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test my POST request test11",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test11;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36828,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the rest asured test",
+            "match": {
+              "location": "MyPostFromTextFile.user_hit_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1637543945,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checks data at path \"Anagha\" having value \"QA manager\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anagha",
+                  "offset": 26
+                },
+                {
+                  "val": "QA manager",
+                  "offset": 48
+                }
+              ],
+              "location": "MyPostFromTextFile.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19284606,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Test my POST request test11",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test11;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 51921,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the rest asured test",
+            "match": {
+              "location": "MyPostFromTextFile.user_hit_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 736315518,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checks data at path \"Madhura\" having value \"QA manager\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Madhura",
+                  "offset": 26
+                },
+                {
+                  "val": "QA manager",
+                  "offset": 49
+                }
+              ],
+              "location": "MyPostFromTextFile.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15299934,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Test my POST request test11",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test11;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39243,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the rest asured test",
+            "match": {
+              "location": "MyPostFromTextFile.user_hit_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 522888018,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checks data at path \"Divya\" having value \"QA lead\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Divya",
+                  "offset": 26
+                },
+                {
+                  "val": "QA lead",
+                  "offset": 47
+                }
+              ],
+              "location": "MyPostFromTextFile.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17033267,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test POST",
+    "description": "",
+    "id": "first-rest-assured-test-post",
+    "keyword": "Feature",
+    "uri": "PostUpdatedJson.feature"
+  }
+]
